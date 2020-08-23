@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#1dacdb"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categories.MasterActivity">
+
+    <ProgressBar
+        android:id="@+id/rotatemaster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="189dp"/>
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:padding="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:visibility="gone"
+        android:layout_marginTop="3dp"
+        android:id="@+id/masterrecy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.v7.widget.RecyclerView
+        android:visibility="gone"
+        android:layout_marginTop="3dp"
+        android:id="@+id/shomasterrecy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <Button
+        android:visibility="gone"
+        android:layout_marginTop="3dp"
+        android:id="@+id/ssdmaster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#6AA121"
+        android:text="Submit"
+        android:textColor="#ffff"
+        android:textStyle="bold" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

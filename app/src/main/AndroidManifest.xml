@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.asl.crud.quizapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mtd"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/mtd"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SignupActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".CategoryActivity" />
+        <activity
+            android:name=".Categories.BasicActivity"
+            android:label="Basic"
+            android:parentActivityName=".CategoryActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ChooseActivity" />
+        <activity android:name=".Show_answers.ShowActivity" />
+        <activity
+            android:name=".Categories.CadualActivity"
+            android:label="Cadual"
+            android:parentActivityName=".CategoryActivity" />
+        <activity
+            android:name=".Categories.LegendActivity"
+            android:label="Legend"
+            android:parentActivityName=".CategoryActivity" />
+        <activity
+            android:name=".Categories.MasterActivity"
+            android:label="Master"
+            android:parentActivityName=".CategoryActivity" />
+        <activity
+            android:name=".Scoreboard.BasicScoreboardActivity"
+            android:label="Top Rankings"
+            android:parentActivityName=".ScoreboardCategoriesActivity" />
+        <activity android:name=".Scoreboard.CadualscoreboardActivity" />
+        <activity android:name=".Scoreboard.MasterscoreboardActivity" />
+        <activity android:name=".Scoreboard.LegendscoreboardActivity" />
+        <activity
+            android:name=".ScoreboardCategoriesActivity"
+            android:label="ScoreBoard"
+            android:parentActivityName=".CategoryActivity" />
+        <activity android:name=".Basicdbs.RadActivity"></activity>
+    </application>
+
+</manifest>

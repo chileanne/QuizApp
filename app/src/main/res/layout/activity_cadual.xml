@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#317a46"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categories.CadualActivity">
+
+    <ProgressBar
+        android:id="@+id/rotatecadual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="189dp"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:visibility="gone"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="2dp"
+        android:id="@+id/cadualrecy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="3dp"
+        android:visibility="gone"
+        android:id="@+id/showcadualrecy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+            <Button
+                android:visibility="gone"
+                android:layout_marginTop="3dp"
+                android:id="@+id/ssdcadual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#f0a630"
+                android:text="Submit"
+                android:textColor="#ffff"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

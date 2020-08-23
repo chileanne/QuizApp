@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "389328198498",
+    "firebase_url": "https://quiz-b1445.firebaseio.com",
+    "project_id": "quiz-b1445",
+    "storage_bucket": "quiz-b1445.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389328198498:android:1a08c1ba6b9591f33b6a3b",
+        "android_client_info": {
+          "package_name": "com.asl.crud.quizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389328198498-af8gijo5pmlbb0f0fn8qpb2hn1afjchs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvyw_-J4tCCiet8expZC2xT7_64evBv84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389328198498-af8gijo5pmlbb0f0fn8qpb2hn1afjchs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
